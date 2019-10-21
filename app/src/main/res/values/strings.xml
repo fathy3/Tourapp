@@ -9,7 +9,7 @@
 
     <string name="menu_home">Best Loction to Visit</string>
     <string name="menu_gallery"> pyramids Gallery </string>
-    <string name="menu_slideshow">Safari ? </string>
-    <string name="menu_tools">Want to swim ? </string>
+    <string name="menu_slideshow">Safari gallery </string>
+    <string name="menu_tools">Sea Gallery </string>
 
 </resources>
