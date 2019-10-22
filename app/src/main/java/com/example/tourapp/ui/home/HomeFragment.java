@@ -26,13 +26,13 @@ public class HomeFragment extends Fragment {
         View root = inflater.inflate(R.layout.listitem, container, false);
 
         ArrayList<locationclass> bestlocation = new ArrayList<locationclass>();
-        bestlocation.add(new locationclass("Cairo","The capital of egypt"));
-        bestlocation.add(new locationclass("El giza","here you can find the awesome Pyramids"));
-        bestlocation.add(new locationclass("Alexandria","Want swim and Ice cream xD ? here you get what you want"));
-        bestlocation.add(new locationclass("Cairo","The capital of egypt"));
-        bestlocation.add(new locationclass("Sina","You can swim in the red sea "));
-        bestlocation.add(new locationclass("el aksor","any thing about egyptian ancient  is there "));
-        bestlocation.add(new locationclass("nahr el Nil ","Romantic View For romantic People xD  "));
+        bestlocation.add(new locationclass(R.string.cairo,R.string.cairo_desc));
+        bestlocation.add(new locationclass(R.string.El_giza,R.string.giza_decs));
+        bestlocation.add(new locationclass(R.string.Alexandria,R.string.Alex_decs));
+        bestlocation.add(new locationclass(R.string.sharam_el_shick,R.string.sharm_decs));
+        bestlocation.add(new locationclass(R.string.Sina,R.string.Sina_decs));
+        bestlocation.add(new locationclass(R.string.el_aksor,R.string.aksor_dec));
+        bestlocation.add(new locationclass(R.string.nahr_el_Nil,R.string.nahr_dec));
         CustomAdabtor adapter = new CustomAdabtor(getActivity(), bestlocation);
         ListView listView = root.findViewById(R.id.list);
         listView.setAdapter(adapter);

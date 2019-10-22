@@ -14,6 +14,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.tourapp.R;
+import com.example.tourapp.galleryclass;
 import com.example.tourapp.locationclass;
 import com.example.tourapp.ui.ImageAdapter;
 
@@ -27,14 +28,17 @@ public class ToolsFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
 
         View root = inflater.inflate(R.layout.listitem, container, false);
-        ArrayList<locationclass> safariallery = new ArrayList<locationclass>();
-        safariallery.add(new locationclass(R.drawable.s));
-        safariallery.add(new locationclass(R.drawable.sss));
-        safariallery.add(new locationclass(R.drawable.ss));
-        safariallery.add(new locationclass(R.drawable.ssss));
-        safariallery.add(new locationclass(R.drawable.sssss));
-        safariallery.add(new locationclass(R.drawable.ssssss));
-        safariallery.add(new locationclass(R.drawable.sssssss));
+        ArrayList<galleryclass> safariallery = new ArrayList<galleryclass>();
+
+        safariallery.add(new galleryclass(R.drawable.sea1,R.string.Sea1));
+        safariallery.add(new galleryclass(R.drawable.sea2,R.string.Sea2));
+        safariallery.add(new galleryclass(R.drawable.sea3,R.string.Sea3));
+        safariallery.add(new galleryclass(R.drawable.sea4,R.string.Sea4));
+        safariallery.add(new galleryclass(R.drawable.sea5,R.string.Sea5));
+        safariallery.add(new galleryclass(R.drawable.sea6,R.string.Sea6));
+        safariallery.add(new galleryclass(R.drawable.sea7,R.string.Sea7));
+        safariallery.add(new galleryclass(R.drawable.sea2,R.string.Sea8));
+
 
 
         ListView listView = root.findViewById(R.id.list);

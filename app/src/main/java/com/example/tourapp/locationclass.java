@@ -3,30 +3,28 @@ package com.example.tourapp;
 public class locationclass {
 
     ///custom class to store data for locations and its photos
-    private String mLoctionName;
-    private String mLoctionDescribtion;
-    private int mImageRecsourceId;
+    private int mLoctionName;
+    private int mLoctionDescribtion;
 
 
-    public locationclass(String mLoctionName, String mLoctionDescribtion) {
+
+    public locationclass(int mLoctionName, int mLoctionDescribtion) {
         this.mLoctionName = mLoctionName;
         this.mLoctionDescribtion = mLoctionDescribtion;
 
     }
 
-    public locationclass(int mImageRecsourceId) {
-        this.mImageRecsourceId = mImageRecsourceId;
-    }
 
-    public int getmImageRecsourceId() {
-        return mImageRecsourceId;
-    }
 
-    public String getmLoctionName() {
+
+
+    public int getmLoctionName() {
         return mLoctionName;
     }
 
-    public String getmLoctionDescribtion() {
+    public int getmLoctionDescribtion() {
         return mLoctionDescribtion;
     }
+
+
 }

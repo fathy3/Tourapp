@@ -6,10 +6,59 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
     <string name="menu_home">Best Loction to Visit</string>
     <string name="menu_gallery"> pyramids Gallery </string>
     <string name="menu_slideshow">Safari gallery </string>
     <string name="menu_tools">Sea Gallery </string>
+    <string name="cairo">Cairo </string>
+    <string name="cairo_desc">The capital of egypt</string>
+
+    <string name="El_giza">ELgiza </string>
+    <string name="giza_decs">here you can find the awesome Pyramids</string>
+
+    <string name="Alexandria">Alexandria </string>
+    <string name="Alex_decs">Want swim and Ice cream xD ? here you get what you want</string>
+
+    <string name="Sina">Sina </string>
+    <string name="Sina_decs">"You can swim in the red sea "</string>
+
+    <string name="sharam_el_shick">sharam el shihk </string>
+    <string name="sharm_decs">perfect for safari</string>
+
+    <string name="el_aksor">el aksor </string>
+    <string name="aksor_dec">any thing about egyptian ancient  is there</string>
+
+    <string name="nahr_el_Nil">nahr el nil </string>
+    <string name="nahr_dec">"Romantic View For romantic People xD  "</string>
+
+    <string name="pyrmidDesc1">The ancient Egyptians built pyramids as tombs for the pharaohs and their queens </string>
+    <string name="pyrmidDesc2">In ancient Egypt, tombs were only built for pharaohs and not the general population </string>
+    <string name="pyrmidDesc3">Most of the pyramids that were made were built on the west bank of the river Nile, the only river that flowed through Egypt </string>
+    <string name="pyrmidDesc4">It was also considered the national highway at that time as people felt that waterways were the best way to transport goods </string>
+    <string name="pyrmidDesc5">They also used to believe that their sun god would travel with them on the water in his own solar boat </string>
+    <string name="pyrmidDesc6">What we now call the Great Pyramid of Giza is the oldest and the greatest pyramid of the three pyramids found there </string>
+    <string name="pyrmidDesc7">This pyramid is one of the seven wonders of the world. It was built for Pharaoh Khufu of the eighth dynasty and constructed between 2580 and 2560 BC </string>
+    <string name="pyrmidDesc8">The doors of the pyramids were very heavy. The Egyptians alone may have known how to open these great doors </string>
+
+
+    <string name="Safari1">Experience the loveliest forest activity surrounded by nature and animals in open desert </string>
+    <string name="Safari2">A great adventure to update your social media with lively pictures </string>
+    <string name="Safari3">Situated at the 65km point on the desert road of Cairo-Alexandria </string>
+    <string name="Safari4"> Africa Safari Park offers you the opportunity to encounter a genuine safari journey</string>
+    <string name="Safari5">There you’ll get to see wild animals in their natural living space and what not </string>
+    <string name="Safari6">This park is an exceptional spot in Cairo and was the first of its sort to open in Egypt </string>
+    <string name="Safari7">There is also motel which seems as though it has a place in the desert</string>
+
+    <string name="Sea1">The Red Sea is a seawater inlet of the Indian Ocean </string>
+    <string name="Sea2"> lying between Africa and Asia </string>
+    <string name="Sea3"> The connection to the ocean is in the south through the Bab el Mandeb strait and the Gulf of Aden </string>
+    <string name="Sea4">To the north lie the Sinai Peninsula, the Gulf of Aqaba, and the Gulf of Suez. The Red Sea is a Global 200 ecoregion </string>
+    <string name="Sea5">The Red Sea is home to over 1200 species of fish and 250 species of coral. Of these, 17% of the fish species and 8% of the coral species are endemic </string>
+    <string name="Sea6">40% of the Red Sea is shallower than 100 meters / 330 feet. And 25% of the Red Sea is less than </string>
+    <string name="Sea7">The Red Sea is the northernmost tropical sea in the world, because its waters cross the Tropic of Cancer </string>
+    <string name="Sea8">The Red Sea is sometimes referred to as the "Underwater Garden of Eden.” </string>
+
+
+
 
 </resources>

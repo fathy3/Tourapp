@@ -12,13 +12,15 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.example.tourapp.R;
+import com.example.tourapp.galleryclass;
 import com.example.tourapp.locationclass;
+
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ImageAdapter extends ArrayAdapter<locationclass> {
-    public ImageAdapter(@NonNull Context context,  @NonNull ArrayList<locationclass> objects) {
+public class ImageAdapter extends ArrayAdapter<galleryclass> {
+    public ImageAdapter(@NonNull Context context,  @NonNull ArrayList<galleryclass> objects) {
         super(context, 0, objects);
     }
     @NonNull
@@ -30,9 +32,11 @@ public class ImageAdapter extends ArrayAdapter<locationclass> {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.fragment_gallery, parent, false);
         }
-        locationclass currentWord = getItem(position);
+        galleryclass currentWord = getItem(position);
         ImageView img = listItemView.findViewById(R.id.imageView2);
         img.setImageResource(currentWord.getmImageRecsourceId());
+        TextView gallerydecs = listItemView.findViewById(R.id.galleryDesc);
+        gallerydecs.setText(currentWord.getmGalleryDecs());
 
         return listItemView;
 
